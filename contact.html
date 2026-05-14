@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misaki Yoneda | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="container nav">
+    <div class="branding">
+      <h1 class="logo">Misaki Yoneda</h1>
+      <p class="subtitle">Student Portfolio</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="statement.html">Professional Statement</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main class="container">
+    <section class="page-header">
+      <p class="tag">Get In Touch</p>
+      <h2>Contact & Skills</h2>
+      <p>I'm always open to new opportunities and connections. Check out my skills and how to get in touch with me below.</p>
+    </section>
+
+    <section class="contact-layout">
+      <div class="card">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> myoneda@atu.edu</p>
+        <p><strong>Phone:</strong> (479) 252-1448</p>
+        <p><strong>Location:</strong> Russellville, Arkansas</p>
+      </div>
+
+      <div class="card">
+        <h3>Skills</h3>
+        <div class="skills-wrapper">
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Communication</li>
+            <li>Creativity</li>
+          </ul>
+          <ul class="skills-extra">
+            <li>Java</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Message Me</h3>
+      <form class="contact-form" action="https://example-form-endpoint" method="POST">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Type your message"></textarea>
+
+        <button type="submit" class="button">Send</button>
+      </form>
+    </section>
+  </main>
+
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Misaki Yoneda</p>
+    <button id="theme-toggle" class="button toggle-button" type="button" aria-label="Toggle dark and light mode">Switch to Dark Mode</button>
+    <p>Date Last Updated: <span id="lastModified"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

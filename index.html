@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misaki Yoneda | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="container nav">
+    <div class="branding">
+      <h1 class="logo">Misaki Yoneda</h1>
+      <p class="subtitle">Student Portfolio</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="statement.html">Professional Statement</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="tag">Greetings</p>
+        <h2>Hi, I'm Misaki Yoneda.</h2>
+        <p>
+          I'm a senior. My major is Computer Science, so I'm interested in programming. Especially, making game or something fun that using
+          3DCG. My future goal is working as a engineer.
+        </p>
+        <!-- <p class="callout">
+          <strong>Fixed Logic Error:</strong> The previous text label was mismatched with the theme state. I corrected logic 
+          in <code>script.js</code> and ensured the toggle works seamlessly across all pages.
+        </p> -->
+      </div>
+      <div class="hero-image">
+        <img src="images/profile-photo.JPG" alt="My profile photo">
+      </div>
+    </section>
+
+    <div class="container card-grid">
+      <article class="card">
+        <h3>About Me</h3>
+        <p>
+          I'm an international student from Japan studying Computer Science at ATU. I always strive to add a unique, personal
+          touch to every project I create.
+        </p>
+      </article>
+      <article class="card">
+        <h3>My Goals</h3>
+        <p>
+          My goal is to become an engineer who brings joy to the world through innovative products and experiences. I'm
+          currently learning game development using Unity and C#.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Fun Facts</h3>
+        <ul class="FunFacts_list">
+          <li>I love playing video games.</li>
+          <li>I'm a member of a cappella club at my university in Japan.</li>
+          <li>It is my dream to own a Siberian Husky someday.</li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Misaki Yoneda</p>
+    <button id="theme-toggle" class="button toggle-button" type="button" aria-label="Toggle dark and light mode">Switch to Dark Mode</button>
+    <p>Date Last Updated: <span id="lastModified"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

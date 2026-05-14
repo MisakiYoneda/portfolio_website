@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misaki Yoneda | Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="container nav">
+    <div class="branding">
+      <h1 class="logo">Misaki Yoneda</h1>
+      <p class="subtitle">Student Portfolio</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="statement.html">Professional Statement</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main class="container">
+    <section class="page-header">
+      <p class="tag">My Work</p>
+      <h2>Projects</h2>
+      <p>A collection of projects I have developed through my courcework at ATU. These works demonstrate my growth in programming.</p>
+      <!-- <p class="callout">
+        <strong>Responsive Design Improvements:</strong> I have optimized the mobile layout by reducing the hero 
+        heading font size for better readability and making the project buttons full-width to improve touch accessbility.
+      </p> -->
+    </section>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <img src="images/project1-gif.gif" alt="3D Action Game">
+        <div class="project-text">
+          <h3>3D Action Game (Unity)</h3>
+          <p>
+            A game project developed as part of my coursework at ATU using Unity and C#. The GIF demonstrates the player controls and game mechanics
+            I implemented.
+          </p>
+          <a href="https://github.com/MisakiYoneda/portfolio_project1/tree/main/Scripts" class="text-link" target="_blank">View Source Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/project2-photo.png" alt="Fantasy Game Manager">
+        <div class="project-text">
+          <h3>Fantasy Game Manager (C++)</h3>
+          <p>A C++ program managing character data with classes and vectors.</p>
+          <a href="https://github.com/MisakiYoneda/portfolio_project2/blob/main/final%20exam.cpp" class="text-link" target="_blank">View Source Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/project3-photo.png" alt="Date & Era Converter">
+        <div class="project-text">
+          <h3>Date & Era Converter (Java)</h3>
+          <p>
+            A Java application that converts Western calendar dates into the traditional Japanese era system. It demonstrates proficiency 
+            in Java class structures and conditional logic.
+          </p>
+          <a href="https://github.com/MisakiYoneda/portfolio_project3/blob/main/MyBirthday.java" class="text-link" target="_blank">View Source Code</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Misaki Yoneda</p>
+    <button id="theme-toggle" class="button toggle-button" type="button" aria-label="Toggle dark and light mode">Switch to Dark Mode</button>
+    <p>Date Last Updated: <span id="lastModified"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
